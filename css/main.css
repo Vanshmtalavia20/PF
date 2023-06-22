@@ -1,0 +1,8 @@
+@media(max-width:500px)
+{
+    .animate {display: none;}
+    .main li {display: none;}
+    /* .main .icon1 {display: block;} */
+    .main .icon1 {display: block; text-align: right; line-height: 70px;}
+    .kk2 {grid-template-columns: 1fr;}
+}

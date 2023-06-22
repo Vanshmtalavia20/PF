@@ -1,0 +1,172 @@
+.main
+{
+    /* height: 600px; */
+    /* border: 2px solid; */
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    font-family: poppins;
+    /* font-size: 20px; */
+    /* text-align: center; */
+    color: white;
+   
+}
+.ul2
+{
+    text-align: right;
+}
+
+li
+{
+    display: inline;
+    margin-right: 30px;
+    /* font-family: poppins; */
+    line-height: 80px;
+    /* text-align: right; */
+}
+
+.p1
+{
+    font-size: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+a:hover
+{
+    color: lightcoral;
+}
+
+.main .icon1
+{
+    display: none;
+}
+
+.b1
+{
+    /* border: 2px solid; */
+    text-align: center;
+    /* width: 500px; */
+    align-items: center;
+    padding: 40px;
+    font-family: poppins;
+    background: lavender;
+    position: relative;
+}
+
+.hh1
+{
+    font-size: 50px;
+}
+
+.animate
+{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    animation: an 1.4s linear infinite;
+    background: lavender;
+    /* border: 2px solid; */
+    height: 50px;
+    width: 300px;
+}
+
+@keyframes an
+{
+    0%{right: 10%;}
+    0%{left: 35%;}
+
+}
+
+
+.myself
+{
+    background: grey;
+    /* border: 2px solid; */
+    /* height: 400px; */
+    font-family: poppins;
+    text-align: center;
+}
+
+.myself .ul1
+{
+   text-align: center;
+   /* display:inline-block; */
+   /* padding: 100px; */
+}
+
+.kk2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* border: 2px solid; */
+    background: lightcyan;
+    gap: 40px;
+    padding: 60px;
+    /* color: black; */
+    color: black;
+    font-family: poppins;
+}
+.a1
+{
+    color: black;
+}
+
+img
+{
+    border-radius: 20px;
+}
+
+
+.footer
+{
+    background: lightsalmon;
+    /* border: 2px solid; */
+    /* height: 400px; */
+    font-family: poppins;
+    text-align: center;
+}
+
+.footer .ul1
+{
+   text-align: center;
+   /* display:inline-block; */
+   /* padding: 100px; */
+}
+
+
+.last
+{
+    background: black;
+    font-family: poppins;
+    border: 2px solid;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+button
+{
+    /* height: 30px; */
+    padding: 10px;
+    border-radius: 20px;
+    background: lightcyan;
+    border: none;
+    transition: 1s;
+}
+
+button:hover
+{
+    background: darkgrey;
+}
+
+.last .g1
+{
+    color: black;
+}
